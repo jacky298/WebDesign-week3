@@ -1,0 +1,32 @@
+@import 'variables';
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: $font-size;
+  font-family:  'Roboto', "Helvetica Neue", Arial, sans-serif;
+  line-height: $line-height;
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: $line-height/ 1.25;
+}
+a{
+  display: block;
+  color: $font-second-color;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
